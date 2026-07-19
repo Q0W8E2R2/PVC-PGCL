@@ -1,0 +1,23 @@
+{在当前文件夹或 MATLAB 路径中未找到 'process_data_gui1'，但它位于:
+ D:\code\TGL-main
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''D:\code\TGL-main''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''D:\code\TGL-main''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', 'D:\code\PVC-PGCL\main.m', 3)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('D:\code\PVC-PGCL\main.m',3,0)">第 3 行</a>)
+[Xs,y_raw,y_new] = process_data_gui1(data,y_raw,y_new);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('demo', 'D:\code\PVC-PGCL\demo.m', 20)" style="font-weight:bold">demo</a> (<a href="matlab: opentoline('D:\code\PVC-PGCL\demo.m',20,0)">第 20 行</a>)
+        main(data,y_new,aligned_sample_index,unaligned_sample_index,y_raw,dataname,unalign_p,"pvp","fix")
+} 
+demo
+归一化处理  view:2.000000 num:600.000000 
+class:10 minY:1 maxY:10 
+view:1 dim:1024 
+view:2 dim:300 
+
+实际对齐样本数:540   对齐样本数:540
+m:60,lambda1:1.000000,lambda2:1.000000,gamma1:10.000000,gamma2:10.000000
+
+final_iter:36,  二阶 融合: ACC:      0.9950 	 NMI:      0.9899 	 Purity:      0.9950 	 Fscore:      0.9900 sc:      0.8903,  db:    748.8232
+----------------------------------------------------------------
+-------------------------------------*********************************------------------------------
