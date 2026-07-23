@@ -51,6 +51,6 @@ elseif dataname =="YaleFace"
     elseif p==0.9
         gamma1 = 0.1;gamma2=100;
     end
-elseif dataname =="ALOI"
+elseif dataname =="ALOI100"
   gamma1 = 1;gamma2=1;
 end
